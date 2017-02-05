@@ -1,0 +1,10 @@
+[package]
+name = "bindgen-vlc-test"
+version = "0.1.0"
+authors = ["Geoffroy Couprie <geo.couprie@gmail.com>"]
+build = "build.rs"
+
+[build-dependencies.bindgen]
+version = "^0.20"
+features = ["llvm_stable"]
+
